@@ -1,4 +1,4 @@
-# 💰 AI Finance Expense Automation System
+66# 💰 AI Finance Expense Automation System
 
 ## 📌 Project Overview
 
@@ -80,21 +80,19 @@ Finance-Automation-Project/
 
 ### 1. Google Form Interface
 
-![Google Form](C:/Users/goyal/OneDrive/Desktop/Finance_automation_project/google_form.png)
+![Google Form](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/google_form.png)
 
 ---
 
 ### 2. Google Sheet Data Capture
 
-![Google Sheet](C:/Users/goyal/OneDrive/Desktop/Finance_automation_project/google_sheet.png)
+![Google Sheet](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/google_sheet.png)
 
 ---
 
 ### 3. n8n Workflow Architecture
 
-![n8n Workflow](C:/Users/goyal/OneDrive/Desktop/Finance_automation_project/Expense_automation_workflow.png)
-
----
+![n8n Workflow](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/google_sheet.png)--
 
 ### 4. Email Notification Output
 

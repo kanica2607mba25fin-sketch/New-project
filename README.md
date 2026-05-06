@@ -92,11 +92,11 @@ Finance-Automation-Project/
 
 ### 3. n8n Workflow Architecture
 
-![n8n Workflow](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/google_sheet.png)--
+![n8n Workflow](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/Expense_automation_workflow.png)--
 
 ### 4. Email Notification Output
 
-![Email Notification](C:/Users/goyal/OneDrive/Desktop/Finance_automation_project/email_output.png)
+![Email Notification](https://github.com/kanica2607mba25fin-sketch/New-project/blob/main/email_output.png)
 
 ---
 ## ⭐ Key Features

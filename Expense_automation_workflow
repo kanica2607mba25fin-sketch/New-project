@@ -1,0 +1,276 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "12EIPU0S_Kac3ZO42NnK3uXQM6mt1KVN5IlIdxtA-3fI",
+          "mode": "list",
+          "cachedResultName": "Expense Tracker Data",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12EIPU0S_Kac3ZO42NnK3uXQM6mt1KVN5IlIdxtA-3fI/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1894376589,
+          "mode": "list",
+          "cachedResultName": "Form responses 1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12EIPU0S_Kac3ZO42NnK3uXQM6mt1KVN5IlIdxtA-3fI/edit#gid=1894376589"
+        },
+        "event": "rowAdded",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        -224,
+        0
+      ],
+      "id": "682906a2-bd50-49dd-ab47-17b316ed932f",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "o9HYYw8CqDRrrYUY",
+          "name": "Google Sheets Trigger OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "da31dc5a-59e9-4ea7-af4c-a523ae931811",
+              "name": "NAME",
+              "value": " Employee Name ",
+              "type": "string"
+            },
+            {
+              "id": "bb10c4d2-ad4a-40fd-8e46-55d873bad66b",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -48,
+        16
+      ],
+      "id": "ef87adaa-a6d9-4067-b639-62d0fb1a0645",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8066dd8b-2fd8-49c4-b884-e3e175b3fab2",
+              "name": "DEPARTMENT",
+              "value": "DEPARTMENT",
+              "type": "string"
+            },
+            {
+              "id": "dafce78a-20d9-44a3-8e51-0e529abac1c1",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        176,
+        0
+      ],
+      "id": "9ed26c5d-02e4-410a-87ab-734d4da14438",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "19a36725-04aa-44eb-8f59-2f6393364d5b",
+              "name": "AMOUNT",
+              "value": "=Amount",
+              "type": "number"
+            },
+            {
+              "id": "a8c5d4ca-ebcc-4f26-80f2-c176821bfb66",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        384,
+        0
+      ],
+      "id": "ad0264f6-afcf-40f1-8c76-3239bfe761db",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f39fd873-6551-41ed-8465-9b882a29d867",
+              "name": "category",
+              "value": "category",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -224,
+        176
+      ],
+      "id": "7db970b6-1ef8-4a04-ac43-015a1ba64671",
+      "name": "Edit Fields3"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a8929154-5d0f-4d73-91af-9947ef2212e6",
+              "name": "Date",
+              "value": "=Date",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -32,
+        160
+      ],
+      "id": "11dedab6-1e86-46f1-9554-4867cc116fed",
+      "name": "Edit Fields4"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "03d736d6-9e99-47ab-98b5-40613dae75be",
+              "name": "PAYMENT MODE",
+              "value": "PAYMENT MODE",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        160,
+        160
+      ],
+      "id": "68520a85-781a-47cb-a852-cbedba79d0b3",
+      "name": "Edit Fields5"
+    },
+    {
+      "parameters": {
+        "sendTo": "LOVEGEETK@GMAIL.COM",
+        "subject": "New Expense Submitted",
+        "message": "Body: A new expense has been submitted.  Employee: {{$json.Name}} Department: {{$json.Department}} Amount: ₹{{$json.Amount}} Category: {{$json.Category}} Date: {{$json.Date}} Payment Mode: {{$json[\"Payment Mode\"]}}  Regards, Expense Automation System",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        384,
+        144
+      ],
+      "id": "f1c18cc1-3538-4bca-80d2-286f7d3ec051",
+      "name": "Send a message",
+      "webhookId": "640ae77a-ed1c-4b04-9fb9-3d84b2058352",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "ixgmT6MxElAUmxac",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Sheets Trigger": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields2": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields3": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields4": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "9a7f6725-950b-4808-a84e-dc7f90f9f0c2",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "6e17f058e1b352ecbd7bfd40fd1d395da112f661bec164191d1721c219730337"
+  },
+  "id": "PQ84GY4EESNeemzE",
+  "tags": []
+}
